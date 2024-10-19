@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/background.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    height: 100vh; /* Faz com que o body ocupe toda a altura da janela */
+}
+
+.container {
+    width: 80%;
+    max-width: 400px; /* Define uma largura máxima para o container */
+    margin: auto;
+    padding: 20px; /* Adicionando um pouco de preenchimento ao contêiner */
+    backdrop-filter: blur(16px); /* Fundo branco para o contêiner */
+    border-radius: 5px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centraliza o texto dentro do container */
+    border:  2px solid rgba(255, 255, 255 , .2)
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 20px; /* Espaçamento inferior para separar do formulário */
+}
+
+form {
+    display: flex; /* Alinha os elementos do formulário */
+    flex-direction: column; /* Coloca os inputs em coluna */
+    align-items: stretch; /* Faz os inputs ocuparem a largura total */
+}
+
+label {
+    text-align: left; /* Alinha os rótulos à esquerda */
+    margin-bottom: 5px; /* Espaçamento abaixo do rótulo */
+    font-weight: bold; /* Destaca os rótulos */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cccccca7;
+    border-radius: 4px;
+    background-color: #cccccca7;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #0056b3; /* Cor da borda ao focar no input */
+    outline: none; /* Remove o contorno padrão */
+}
+
+button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+p {
+    margin-top: 20px; /* Espaçamento superior para separar do formulário */
+}
