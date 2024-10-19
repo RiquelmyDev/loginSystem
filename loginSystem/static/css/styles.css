@@ -43,7 +43,6 @@ label {
 
 input[type="text"],
 input[type="password"] {
-    width: 100%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #cccccca7;
@@ -72,4 +71,8 @@ button:hover {
 
 p {
     margin-top: 20px; /* Espaçamento superior para separar do formulário */
+}
+
+a {
+    color: rgb(255, 0, 230);
 }
