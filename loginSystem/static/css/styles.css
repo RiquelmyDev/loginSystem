@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
 body {
     font-family: Arial, sans-serif;
     background-image: url("images/background.jpg"); 
@@ -76,3 +83,4 @@ p {
 a {
     color: rgb(255, 0, 230);
 }
+

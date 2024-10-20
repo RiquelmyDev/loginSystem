@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, redirect, session
+from flask import Flask, request, render_template, redirect, url_for, session
 import sqlite3
 import bcrypt
 
@@ -67,8 +67,10 @@ def login():
 @app.route('/dashboard')
 def dashboard():
     if 'username' in session:
-        return f"Bem-vindo, {session['username']}! Você está logado."
-    return redirect('/login')
+        username = session['username']  # Recupera o nome do usuário da sessão
+        return render_template('dashboard.html', username=username)  # Passa o nome do usuário para o HTML
+    else:
+        return redirect(url_for('login'))  # Redireciona para o login se o usuário não estiver logado
 
 # Rota para logout
 @app.route('/logout')

@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* Estilo para a página de dashboard */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0f0f0f;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-color: 5px #ffffff;
+    background-color: #1b1b1b;
+    padding: 10px 0px;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    color: #ffffff;
+    text-align: center;
+}
+
+.container .icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    align-items: center;
+}
+
+a {
+    margin: 20px auto;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    background-color: #474747;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background: rgb(195,34,34);
+    background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(45,58,253,1) 100%);
+}
+
+footer {
+    padding: 400px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+</head>
+
+<body>
+    <header>
+        <p>Bem-vindo, {{ username }}!</p>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Adicione seus dados</h1>
+            
+            <div class="icons">
+                <div class="email">
+                    <button>
+                        <input type="email">
+                    </button>
+                </div>
+    
+                <div class="password">
+                    <button>
+                        <input type="password">
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Meu Sistema de Login. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
