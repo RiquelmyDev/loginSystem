@@ -1,0 +1,1 @@
+I suddenly had an idea to create a login system, which takes username and password, and stores it in a database. I used flask, python, sql html and css. I created it alone, I had help from GPT chat to resolve doubts, but I did it alone, so it's bad lol, but I'm happy
